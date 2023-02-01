@@ -1,21 +1,15 @@
-.parent{
-position: relative;
+.container{
+    background-color: lightblue;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
 }
-
-.child-one{
-/* position: relative; */
-top: 10px;
-left: 15px;
-width: 20px;
-}
-.child-two{
-position: absolute;
-top: 0px;
-left: 0px;
-}
-.child-three{
-/* position: fixed; */
- position: sticky;
- top: 0;
- left: 0;
+.container .item{
+    background-color: darkblue;
+    color: white;
+    margin: 40px 10px;
+    width: 23%;
 }
